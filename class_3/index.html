@@ -14,22 +14,24 @@
 <body>
   <div id="root"></div>
   <script type="text/babel">
-      function MyAge(params) {
-        return(
-          <h2>My Age is : { params.age }</h2>
-        );
-      }
+
       function HelloWorld(params){
         return (
-          <h1>My Name Is, {params.name}!</h1>
+          <div>
+          <h1>Hi, {params.name}!</h1>
+          <MyAge age={params.age} adult="yes"/>
+          </div>
+        );
+      }
+      function MyAge(params) {
+        return(
+          <h2>My Age is : { params.age }. Adult? : {params.adult}</h2>
         );
       }
       ReactDOM.render(
         <div>
-        <HelloWorld name="Monirul Islam" />
-        <MyAge age="20"/>
-        <HelloWorld name="Johurul Islam" />
-        <MyAge age="29"/>
+        <HelloWorld name="Monirul Islam" age="20" />
+        <HelloWorld name="Johurul Islam" age="29"/>
         </div>,
         document.getElementById('root')
       );
