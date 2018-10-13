@@ -1,22 +1,39 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="UTF-8" />
-    <title>Hello World</title>
-    <script src="https://unpkg.com/react@16/umd/react.development.js"></script>
-    <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
-    
-    <!-- Don't use this in production: -->
-    <script src="https://unpkg.com/babel-standalone@6.15.0/babel.min.js"></script>
-  </head>
-  <body>
-    <div id="root"></div>
-    <script type="text/babel">
 
+<head>
+  <meta charset="UTF-8" />
+  <title>Hello World</title>
+  <script src="https://unpkg.com/react@16/umd/react.development.js"></script>
+  <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
+
+  <!-- Don't use this in production: -->
+  <script src="https://unpkg.com/babel-standalone@6.15.0/babel.min.js"></script>
+</head>
+
+<body>
+  <div id="root"></div>
+  <script type="text/babel">
+      function MyAge(params) {
+        return(
+          <h2>My Age is : { params.age }</h2>
+        );
+      }
+      function HelloWorld(params){
+        return (
+          <h1>My Name Is, {params.name}!</h1>
+        );
+      }
       ReactDOM.render(
-        <h1>Hello, world!</h1>,
+        <div>
+        <HelloWorld name="Monirul Islam" />
+        <MyAge age="20"/>
+        <HelloWorld name="Johurul Islam" />
+        <MyAge age="29"/>
+        </div>,
         document.getElementById('root')
       );
     </script>
-  </body>
+</body>
+
 </html>
