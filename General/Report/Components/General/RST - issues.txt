@@ -1,0 +1,4 @@
+1. Sticky column synchronization
+2. sticky-row-table cell width will be considered less prirotity, master-table's corresponding (aligning) cell's maximum width should be their maximum width too
+3. alternative temporary way where cell inherits some visibly hidden text to compensate their low width - should be optimized and irrelevant processing should be avoided.
+4. While showing 'Empty Table' notifier - two rows are showing different width

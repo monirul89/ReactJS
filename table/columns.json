@@ -1,0 +1,366 @@
+[
+    {
+        "key": "FacilityID",
+        "label": "Facility ID"
+    },
+    {
+        "key": "Name",
+        "label": "Store Name"
+    },
+    {
+        "key": "Address1",
+        "label": "Address"
+    },
+    {
+        "key": "City",
+        "label": "City"
+    },
+    {
+        "key": "ProvinceState",
+        "label": "Province"
+    },
+    {
+        "key": "Country",
+        "label": "Country"
+    },
+    {
+        "key": "Mail Code",
+        "label": "Postal Code"
+    },
+    {
+        "key": "WeatherStation",
+        "label": "Weather Station"
+    },
+    {
+        "key": "SiteType",
+        "label": "Site Type"
+    },
+    {
+        "key": "Region",
+        "label": "Region"
+    },
+    {
+        "key": "Division",
+        "label": "Banner"
+    },
+    {
+        "key": "Value",
+        "label": "GFA (ft2)"
+    },
+    {
+        "key": "PrimaryContact",
+        "label": "Primary Contact"
+    },
+    {
+        "key": "PrimaryContact",
+        "label": "Manager"
+    },
+    {
+        "key": "PrimaryContactTitle",
+        "label": "Title"
+    },
+    {
+        "key": "PrimaryContactPhoneNo",
+        "label": "Phone No"
+    },
+    {
+        "key": "PrimaryContactCellNo",
+        "label": "Cell No"
+    },
+    {
+        "key": "PrimaryContactEmail",
+        "label": "Email"
+    },
+    {
+        "key": "Contact2Name",
+        "label": "Energy Leader"
+    },
+    {
+        "key": "Contact2Title",
+        "label": "Contact2 Title"
+    },
+    {
+        "key": "Contact2PhoneNo",
+        "label": "Contact2 Phone No"
+    },
+    {
+        "key": "Contact2CellNo",
+        "label": "Contact2 Cell No"
+    },
+    {
+        "key": "Contact2Email",
+        "label": "Contact2 Email"
+    },
+    {
+        "key": "LeaseStatus",
+        "label": "Lease Status"
+    },
+    {
+        "key": "LeaseStart",
+        "label": "Lease Start"
+    },
+    {
+        "key": "LeaseExpiry",
+        "label": "Lease Expiry"
+    },
+    {
+        "key": "LeaseAreaMezzanine_FT2",
+        "label": "Lease Area Mezzanine (ft2)"
+    },
+    {
+        "key": "LeaseAreaWarehouse_FT2",
+        "label": "Lease Warehouse (ft2)"
+    },
+    {
+        "key": "LeaseAreaRetailOffice_FT2",
+        "label": "Lease Retail Office (ft2)"
+    },
+    {
+        "key": "LeaseAreaTotal_FT2",
+        "label": "Lease Total (ft2)"
+    },
+    {
+        "key": "SubletName",
+        "label": "Sublet Name"
+    },
+    {
+        "key": "SubletStart",
+        "label": "Sublet Start"
+    },
+    {
+        "key": "SubletExpiry",
+        "label": "Sublet Expiry"
+    },
+    {
+        "key": "SubletAreaMezzanine_FT2",
+        "label": "Sublet Mezzanine (ft2)"
+    },
+    {
+        "key": "SubletAreaWarehouse_FT2",
+        "label": "Sublet Warehouse (ft2)"
+    },
+    {
+        "key": "SubletAreaRetailOffice_FT2",
+        "label": "Sublet Retail Office (ft2)"
+    },
+    {
+        "key": "SubletAreaTotal_FT2",
+        "label": "Sublet Total (ft2)"
+    },
+    {
+        "key": "UtilityStream",
+        "label": "Utility Types"
+    },
+    {
+        "key": "OtherStream",
+        "label": "Additional Data"
+    },
+    {
+        "key": "DerivedDataStream",
+        "label": "Derived Data"
+    },
+    {
+        "key": "RegulatedUtilites",
+        "label": "Utilities"
+    },
+    {
+        "key": "CommoditySuppliers",
+        "label": "Commodity Supplier"
+    },
+    {
+        "key": "GFA_FT2",
+        "label": "GFA (ft2)"
+    },
+    {
+        "key": "GLA_FT2",
+        "label": "GLA (ft2)"
+    },
+    {
+        "key": "EGA_FT2",
+        "label": "EGA (ft2)"
+    },
+    {
+        "key": "CGA_FT2",
+        "label": "CGA (ft2)"
+    },
+    {
+        "key": "CA_FT2",
+        "label": "Common Area (ft2)"
+    },
+    {
+        "key": "CA_PCT",
+        "label": "Common Area (%)"
+    },
+    {
+        "key": "PA_FT2",
+        "label": "Parking Area (ft2)"
+    },
+    {
+        "key": "PA_Enclosed_FT2",
+        "label": "PA-Enclosed (ft2)"
+    },
+    {
+        "key": "PA_Unenclosed_FT2",
+        "label": "PA-Unenclosed (ft2)"
+    },
+    {
+        "key": "PA_Open_FT2",
+        "label": "PA - Open(ft2)"
+    },
+    {
+        "key": "PA_Enclosed_Heated_FT2",
+        "label": "PA-Enclosed-Heated (ft2)"
+    },
+    {
+        "key": "PA_Surface_FT2",
+        "label": "PA-Surface (ft2)"
+    },
+    {
+        "key": "Irrigation",
+        "label": "Irrigation"
+    },
+    {
+        "key": "IrrigatedArea_FT2",
+        "label": "Irrigated Area (ft2)"
+    },
+    {
+        "key": "UtilityCoverage",
+        "label": "Utility Coverage"
+    },
+    {
+        "key": "Heating",
+        "label": "Heating"
+    },
+    {
+        "key": "HVAC_Heating",
+        "label": "HVAC - Heating"
+    },
+    {
+        "key": "HeatedArea_FT2",
+        "label": "Heated Area (ft2)"
+    },
+    {
+        "key": "Cooling",
+        "label": "Cooling"
+    },
+    {
+        "key": "HVAC_Cooling",
+        "label": "HVAC - Cooling"
+    },
+    {
+        "key": "CooledArea_FT2",
+        "label": "Cooled Area (ft2)"
+    },
+    {
+        "key": "DateAcquired",
+        "label": "Date Acquired"
+    },
+    {
+        "key": "Build",
+        "label": "Build"
+    },
+    {
+        "key": "DateBuilt",
+        "label": "Date Built"
+    },
+    {
+        "key": "DateDivested",
+        "label": "Date Divested"
+    },
+    {
+        "key": "BuildingClassification",
+        "label": "Building Class"
+    },
+    {
+        "key": "BuildingLocation",
+        "label": "Building Location"
+    },
+    {
+        "key": "Count_Building",
+        "label": "# of Buildings"
+    },
+    {
+        "key": "Count_Floor_Total",
+        "label": "Floors - Total"
+    },
+    {
+        "key": "Count_Floor_AboveGrade",
+        "label": "Floors - Above Grade"
+    },
+    {
+        "key": "Count_Floor_BelowGrade",
+        "label": "Floors - Below Grade"
+    },
+    {
+        "key": "Count__Floor_BelowGradeParking",
+        "label": "Floors - Parking Below Grade"
+    },
+    {
+        "key": "Count_ParkingSpaces",
+        "label": "Parking Spaces"
+    },
+    {
+        "key": "Count_EVChargingStation",
+        "label": "EV Charging Stations"
+    },
+    {
+        "key": "Count_EVParking",
+        "label": "EV Parking Spaces"
+    },
+    {
+        "key": "Count_BicycleRack",
+        "label": "Bicycle Racks"
+    },
+    {
+        "key": "Count_BicycleParking",
+        "label": "Bicycle Parking"
+    },
+    {
+        "key": "OperatingHours_Weekly",
+        "label": "OperatingHours-Weekly"
+    },
+    {
+        "key": "OperatingHours_Weekday",
+        "label": "Operating Hours - Wkdy"
+    },
+    {
+        "key": "OperatingHours_Sat",
+        "label": "Operating Hours - Sat"
+    },
+    {
+        "key": "OperatingHours_Sun",
+        "label": "Operating Hours - Sun"
+    },
+    {
+        "key": "Count_EmployeeOccupant_Total",
+        "label": "# of Employees - Wkdy"
+    },
+    {
+        "key": "AverageNo_EmployeesOccupants",
+        "label": "# of Employees - Avg"
+    },
+    {
+        "key": "Count_ElectronicDisplay",
+        "label": "Electronic Display"
+    },
+    {
+        "key": "Count_ShowerFacility",
+        "label": "Shower Facilities"
+    },
+    {
+        "key": "Count_Toilet",
+        "label": "Toilets"
+    },
+    {
+        "key": "Count_Urinal",
+        "label": "Urinals"
+    },
+    {
+        "key": "Count_Sink",
+        "label": "Sinks"
+    },
+    {
+        "key": "Count_Unit_ELSubmetered",
+        "label": "Units with Submetering"
+    }
+]
