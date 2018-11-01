@@ -1,23 +1,30 @@
-var userOne = {
-    email:'ryu@ninjas.com',
-    name: 'Ryu',
-    login(){
-        console.log(this.email, 'Has loged in.');
-    },
-    logout(){
-        console.log(this.email, 'Has loged out.');
-    }
-};
+class User{
+    constructor(email, name){
+        this.email = email;
+        this.name = name;
+        this.score = 0;
 
-var userTwo = {
-    email:'yoshi@ninjas.com',
-    name: 'Ryu',
-    login(){
-        console.log(this.email, 'Has loged in.');
-    },
-    logout(){
-        console.log(this.email, 'Has loged out.');
     }
-};
+    login(){
+        console.log(this.email, 'Just logged in');
+        return this;
+    }
+    
+    logOut(){
+        console.log(this.email, 'Just logged Out');
+        return this;
+    }
 
-console.log(userOne.logout);
+    updateScore(){
+        this.score++;
+        console.log(this.email, 'Score is now', this.score);
+        return this;
+
+    }
+}
+
+var userOne = new User('Ryu@ninjas.com', 'Ryu');
+var userTwo = new User('yoshi@ninjas.com', 'yoshi')
+
+
+userOne.login().updateScore().updateScore().logOut();
