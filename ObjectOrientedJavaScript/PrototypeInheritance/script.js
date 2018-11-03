@@ -20,16 +20,19 @@ function Admin(...args){
 }
 
 Admin.prototype = Object.create(User.prototype);
-Admin.prototype.deleteUser = function(){
-    
-}
+
+Admin.prototype.deleteUser = function(u){
+    users = users.filter(user => {
+        return user.email != u.email;
+    });
+};
 
 
 
 
 var userOne  = new User('monirul@gmail.com', 'Monir');
 var userTwo  = new User('yahman@gmail.com', 'Yahman');
-var Admin = new Admin('Moniru@gmail.com', 'Monirul');
+var admin = new Admin('Moniru@gmail.com', 'Monirul');
 
-console.log(userTwo.email, userTwo.name);
+var users = [userOne, userTwo, admin];
 console.log(Admin);
